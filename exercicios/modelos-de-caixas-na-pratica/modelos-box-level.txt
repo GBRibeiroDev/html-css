@@ -1,0 +1,9 @@
+modelos-box-level
+
+user agente é sempre o navegador que está exibindo o meu conteúdo.
+
+por padrão as tags box-level já vem com o display: block.
+
+margin: auto serve para poder centralizar qualquer elemento box-level. se for inline level, basta utilizar o text-align
+o auto serve para calcular automaticamente as margens da direita e esquerda para deixar elas centralizada.
+

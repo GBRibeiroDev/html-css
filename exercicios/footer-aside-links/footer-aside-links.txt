@@ -1,0 +1,19 @@
+footer-aside-links
+
+asides:
+não necessariamente é sobre a matéria principal, podemos utilizar aside para colocarmos curiosidades sobre o que está sendo escrito no site. 
+
+quando criamos listas dentro de asides, as bolinhas da lista tendem a ficar para fora, para resolvermos isso basta utilizar o list-style-position: inside; significa que você quer que o estilo da lista que nesse caso são as bolinhas, fique dentro do aside.
+
+para dividirmos uma lista em colunas, basta adicionar a tag columns e dizer quantas colunas nós queremos dividir a nossa lista.
+
+para mudarmos o estilo da lista para um emoji, basta pegar o código do emoji no emojipedia e acrescentar juntamente de um \ dentro do list-style-type
+exemplo:
+list-style-type: '\2714';
+
+para esses list style não ficar grudado, também podemos acrescentar o código do espaço ficando exatamente assim: 
+list-style-type: '\2714\0020\0020';
+
+utilizar números negativos faz com que nós façamos a margin crescer para fora ao invés de crescer para dentro. 
+margin: -10px -10px 0px -10px;
+

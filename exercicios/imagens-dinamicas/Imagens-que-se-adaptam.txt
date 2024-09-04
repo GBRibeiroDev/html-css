@@ -1,0 +1,41 @@
+Imagens que se adaptam
+
+para botar uma imagem dinâmica no site, é necessário colocar a tag Picture e dentro dela adicionar a imagem dinâmica.
+essa tag Picture ela permite que você crie vários source, varias fontes.
+
+Dentro dessa tag Picture é necessário utilizar a tag source:media:type essa tag é responsável por decidir qual imagem vai ser mostrada com os parâmetros de width que você
+vai escolher dentro dela.
+
+obs: é melhor trocar o min-width por max-width.
+
+a tag fica igual o exemplo abaixo:
+<source media="(max-width: 1000px)" srcset="" type="image/"
+
+para escolher a imagem no srcset é necessário escrever o diretório dela pois não tem como dar ctrl espaço.
+
+no type é sempre importante colocar o type da imagem seja png, jpg entre outros.
+
+exemplo: 
+<source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+
+código final:
+<picture>
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+isso é, o site vai carregar a foto grande normalmente, mas se chegar a no máximo 1000px, vai carregar a foto media.
+
+Barra de rolagem lateral:
+Para evitar a barra de rolagem lateral que pode atrapalhar a experiencia de usuários que utilizam o celular, basta colocarmos pro max-width ser de 50px a mais do que a imagem
+que normalmente é o tamanho que evita ter a rolagem lateral.
+
+e para adicionar um source novo, é sempre acima do anterior, ficando conforme o exemplo abaixo:
+<picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+IMPORTANTE:
+Devemos usar como imagem padrão a que queremos carregar e os source são para adicionar as imagens adaptadas para diferentes telas.

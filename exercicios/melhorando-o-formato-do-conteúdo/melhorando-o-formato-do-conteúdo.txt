@@ -1,0 +1,12 @@
+melhorando-o-formato-do-conteúdo
+
+os parágrafos normalmente vem com uma margin pré programada e quando utilizamos o seletor global *, nós acabamos eliminando essa margin.
+para resolver isso vou utilizar a shorthand de margin colocar uma margin de 15px em cima e em baixo e 0px dos lados.
+lembrando que a shorthand de margin é top, right, bottom, left.
+
+line-weight é uma propriedade nova que aprendi nessa aula, ela serve para definir o espaçamento das linhas.
+é uma propriedade muito boa e importante para se usar. normalmente iremos utilizar ela com 2em que é para tirar o espaço de cima e de baixo entre as linhas e deixar o texto juntinho. correção: é bom colocar 2em ao invés de 1em para poder facilitar a leitura do cliente. 
+
+
+
+

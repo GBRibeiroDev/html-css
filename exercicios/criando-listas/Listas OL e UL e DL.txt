@@ -1,0 +1,60 @@
+Listas OL e UL 
+
+Para criar uma lista ordenada, utilizamos o Ordered Lists que é a tag OL.
+para fazer qualquer lista, eu defino se vai ser lista ordenada (OL) ou se vai ser lista (UL 
+unordered lists) e depois de definir isso, eu vou acrescentar os objetos da lista utilizando a tag
+LI (Listem Item) 
+
+exemplo: 
+<ol>
+<li>teste</li>
+</ol>
+
+
+observação: o </li> não é mais obrigatório a partir do html 5, então fica opcional fechar a tag. Recomendo fechar, assim deixa o código mais limpo.
+
+também podemos personalizar a maneira com que a lista vai ser ordenada, se vai ser com número, letra e etc.
+para isso, na frente do OL iremos adicionar um parametro "type" que vai me dar 5 opções de personalização para a minha lista ordenada.
+
+se eu quiser que essa lista comece em um numero ou letra especifica, na frente do type eu adiciona outro parâmetro "start" e indico em qual letra/número que quero que a lista
+comece.
+
+
+Também é possível adicionar o parâmetro "type" nas listas não ordenadas para podermos trocar a marcação delas que por padrão é uma bolinha.
+
+por algum motivo o vscode não vai sugerir os types de UL, então vou deixar anotado aqui os types existentes:
+disc
+circle
+square
+
+para misturar essas listas, basta ir criando aninhamentos. 
+exemplos:
+<ol>
+        <li>Antigas</li>
+        <ol>
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+
+
+
+para fazer essas duas listas se ligarem na mesma continuação (exemplo: uma ir de A a D e a outra começar em E)
+devo colocar o mesmo type nas duas e definir o inicio pelo parâmetro "start". vale lembrar que esse é um parâmetro numérico.
+
+
+Lista de definições
+
+Essa lista se cria com a tag dl (definition list). Ela serve para eu colocar o termo e a definição dele.
+Para utilizar essa lista de definição, eu crio ela com a tag dl e acrescento nela o termo com a tag dt e a descrição com a tag dd
+exemplo:
+<dl>
+  <dt>Termo</dt>
+  <dd>Descrição</dd>
+</dl>
+
+<dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para o conteúdo de um site</dd>
+

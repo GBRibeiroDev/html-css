@@ -1,0 +1,13 @@
+diferenças-entre-id-e-class.
+
+dentro de um html eu só posso ter 1 id para o elemento.
+exemplo:
+se eu já tenho um elemento (h1 exemplo) com o id "principal" eu não posso colocar esse mesmo id para outro h1.
+
+uma elemento pode ter mais de uma class. 
+
+
+conseguimos utilizar um id e uma class no mesmo elemento, conseguimos adicionar duas class no mesmo elemento e também temos a opção de deixar o elemento sem nada. 
+lembrando que o id sobrepõem as configurações de class caso o mesmo elemento tenha id e class com propriedas iguais como por exemplo: color.
+
+então basicamente quando queremos selecionar vários elementos iguais, utilizamos class e quando é um elemento em especifico nos adicionamos id.

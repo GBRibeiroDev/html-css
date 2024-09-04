@@ -1,0 +1,10 @@
+adicionando-fonte-local
+
+para fazermos isso basta ir no css e adicionarmos a regra @font-face e dentro das chaves definir as propriedas font-family que é como vc vai chamar essa fonte e o src dela.
+e acrescentar o format: opentype em seguida, ficando exatamente igual a maneira abaixo:
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+}

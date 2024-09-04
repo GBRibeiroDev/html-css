@@ -1,0 +1,52 @@
+Harmonia-de-cores
+
+
+a paleta de cores sempre parte baseada na cor principal.
+
+uma paleta sempre vai ter entre 3 a 5 cores no máximo, sendo uma media ideal de 4 cores por paleta.
+
+
+cores complementares:
+são as cores que mais contrastam entre si.
+exemplo:
+violeta - amarelo
+vermelho - verde
+azul - laranja 
+
+cores análogas:
+são as cores que combinam entre si, como se fossem cores "irmãs"
+são as cores que ficam ao lado da cor principal no circulo cromático.
+
+paleta de cores análogas e uma complementar:
+é uma paleta formada por uma cor principal, tons análogos e uma cor complementar.
+exemplo:
+roxo, roxo avermelhado, roxo azulado e amarelo 
+
+cores análogas relacionadas:
+são duas cores análogas, pula a terceira e pega a quarta, formando um pequeno degrade entre as cores análogas e um contraste forte com a quarta cor
+exemplo:
+amarelo, amarelo-alaranjado e laranja
+
+cores intercaladas:
+é uma paleta formada a partir do momento em que vc escolhe uma cor principal, pula uma cor análoga e pega a outro e continua fazendo isso.
+exemplo:
+amarelo, (pula amarelo alaranjado), laranja, (pula o vermelho alaranjado), vermelho
+
+observação: essa paleta fica um pouco "dura" fica contrastando bastante, por isso não é muito recomendada.
+
+cores triádicas:
+você vai escolher uma cor e pular 3 cores. 
+exemplo: amarelo, vermelho e azul
+
+cores em quadrado:
+você escolhe uma cor e pula duas.
+exemplo:
+amarelo, vermelho alaranjado, violeta e azul esverdeado
+
+cores tetradicas:
+essa paleta é formada quando você pega dois kits de cores complementares.
+exemplo:
+vermelho - verde, azul-laranja.
+
+monocromia:
+essa paleta trabalha com 1 cor só, mudando a saturação e luminosidade. basicamente o degrade formado por 1 cor escolhida.

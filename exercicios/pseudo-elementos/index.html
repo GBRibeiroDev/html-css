@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(51, 238, 51);
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #000;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a::before {
+            content: '\00272D';
+        }
+
+        a::after {
+            content: '\002663';
+            text-decoration: none;
+            font-weight: normal;
+            color: gray;
+        }
+
+        .especial {
+            background-color: blue;
+        }
+
+        .especial:hover {
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/GBRibeiro4?tab=repositories" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.twitch.tv/gbribeiro4" target="_blank" class="especial">Canal da Twitch</a></li>
+        <li><a href="https://twitter.com/ribeiro14gb" target="_blank">Meu Twitter </a></li>
+    </ul>
+</body>
+</html>

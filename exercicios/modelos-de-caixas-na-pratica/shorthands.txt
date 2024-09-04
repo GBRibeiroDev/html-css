@@ -1,0 +1,23 @@
+shorthands
+
+border: 
+border-width: ;
+border-style: ;
+border-color: ;
+
+outline:
+outline-width: ;
+outline-style: ;
+outline-color: ;
+
+padding: 
+padding-top: ;
+padding-right: ;
+padding-bottom: ;
+padding-left: ;
+
+margin: 
+margin-top: ;
+margin-right: ;
+margin-bottom: ;
+margin-left: ;

@@ -1,0 +1,58 @@
+anatomia-do-tipo
+
+curiosidade: toda vez que alguém vai criar uma fonte nova, ela se baseia no x minúsculo. 
+Basicamente isso acontece porque existe uma medida chamada altura x. que serve para definir a altura base de todas as letras minúsculas
+
+altura-x: 
+altura de cima para baixo de uma letra minúscula. 
+
+altura das maiúscula:
+nome autoexplicativo. 
+
+ascendente: 
+é o tamanho das letras minúsculas que vazam pra cima da altura x.
+
+descendente: 
+é a altura das letras minúsculas que vazam pra baixo com suas respectivas "caldas"
+
+corpo:
+altura de tudo junto. que é a altura que definimos no css.
+
+
+serifa: 
+é um pequeno traço que gera no final das fontes.
+serifa serve para criar uma linha imaginaria facilitando uma leitura guiada da frase. 
+
+
+haste é o traço em pé que temos como na letra K e A.
+obs: a haste que está deitada dentro da letra a nós chamamos de filete. pq filete serve para unir 2 hastes ou um arco como no "n"
+
+esporão: é a "base" das letras como tem no "b"
+
+vértice: é a ponta das letras como "A" e "V" 
+
+terminal: é um elemento que não está preso em outro lugar, exemplo disso temos o "r"
+
+braço: é um elemento que sai da haste e fica inclinado pra cima como o "K"
+
+perna: é um elemento que sai da haste e fica inclinado para baixo como o "K"
+
+pé: é a base onde possui as serifas de algumas fontes 
+
+espinha: são as curvas que temos nas letras como o "S" 
+
+barriga: são arcos que possuem saindo de duas hastes como o "b" 
+
+olho: é o espaço redondo fechado dentro das letras como no "O" "Q" "g"
+
+orelha: parte de cima do "g" 
+
+cauda: o que vaza do eixo X
+
+grifo: é uma letra.
+
+família tipográfica: são fontes que possuem varias variações do mesmo grifo. exemplo: light, normal, seminegrito, negritom extranegrito
+obs: não são todas as fontes que possuem família tipográfica.
+
+
+

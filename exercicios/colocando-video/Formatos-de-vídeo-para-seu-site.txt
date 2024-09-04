@@ -1,0 +1,8 @@
+Formatos de vídeo para seu site
+
+Compatibilidades: 
+No caso de navegadores os arquivos mais padrões de se usar são:
+MP4, M4V, MBM, OGV
+
+Podemos baixar a ferramenta handbreak e utilizar ela para converter vídeos para outros formatos.
+muito importante não hospedar vídeos no próprio site que tenham até 1080p pois isso vai custar muito caro para o cliente hospedar o site.

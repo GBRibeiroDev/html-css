@@ -1,0 +1,13 @@
+criando-android
+
+primeiro criamos um header para colocar todo o cabeçalho e em seguida um nav com os 4 links para formar o menu.
+
+
+normalmente depois de criar o header e o nav, iremos criar um main e adicionar um article dentro dele com todo o conteúdo que iremos utilizar.
+
+podemos e é recomendado também  criarmos todo o layout do site pelo mockflow antes de começarmos a codar. é opcional, mas também podemos criar todo o conteúdo do site no bloco de notas em um formato semelhante a um roteiro e apenas ir envelopando dentro do vscode, que é a maneira que estou fazendo esse site. 
+
+
+curiosidades como nesse caso a lista com as versões do android, nós colocamos dentro de um aside.
+
+para criarmos abreviação quando passar o mouse em cima, basta criarmos uma tag abbr. 

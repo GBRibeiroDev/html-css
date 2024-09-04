@@ -1,0 +1,4 @@
+Links para download
+
+quando criamos links para downloads, precisamos acrescentar o parâmetro download e o type.
+para consultar o type correto, basta procurarmos no google "media types"

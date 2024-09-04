@@ -1,0 +1,5 @@
+alinhamento-de-textos-css
+
+o paragrafo normalmente tem um alinhamento justificado, isso significa que ele vai ficar alinhado tanto na esquerda quanto na direita, por isso o recomendado é sempre utilizar o text-align: justify nos parágrafos. 
+
+se eu quiser dar um espaço inicial para parágrafos, basta utilizar o text-ident e definir a quantidade do espaço desejado. 

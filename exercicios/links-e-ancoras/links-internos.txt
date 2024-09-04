@@ -1,0 +1,13 @@
+Links internos
+
+Quando for criar páginas internas é necessário adicionar o rel "next" para a próxima pagina e o rel "prev" (q significa previous) quando for voltar para uma pagina.
+
+Quando  vamos criar links para páginas externas que não conhecemos a procedência e/ou seja patrocinador, é necessário colocar o rel "nofollow"
+
+Normalmente por padrão, é só você não colocar nenhum target que o site vai abrir link interno para outra pagina do próprio site na mesma aba. Porem, se quiser garantir que 
+vai acontecer isso, basta adicionar o target "_self"
+
+Para voltar para uma página que está fora da pasta, deve utilizar o ../ se for para voltar para uma página da mesma pasta é ./
+
+Exemplo:
+a href="../index.html"

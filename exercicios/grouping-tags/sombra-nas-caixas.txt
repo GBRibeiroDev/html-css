@@ -1,0 +1,5 @@
+sombra-nas-caixas
+
+para criar uma sombra interna, basta acrescentar a palavra "inset" no inicio da shorthand do box-shadow.
+
+também temos a opção de criarmos a nossa própria sombra dentro do dev tools. basta adicionarmos box-shadow no vscode e configurar dentro do dev tools clicando dentro dois dois quadradinhos que vai aparecer.

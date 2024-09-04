@@ -1,0 +1,12 @@
+criando-um-exemplo-real
+
+margin:auto sempre vai centralizar o conteúdo, independente do tamanho da tela.
+
+box-shadow shorthand
+primeiro parâmetro: quanto a sombra vai andar para o lado.
+segundo parâmetro: quanto essa sombra vai andar para baixo
+terceiro parâmetro: quanto a sombra vai espalhar
+quarto parâmetro: quanto de transparência e cor a sombra vai ter
+
+observação: dica para cor de sombra: pegar a cor do fundo do conteúdo e trabalhar com monocromia. 
+basta pegar a cor de fundo e pegar um tom mais escuro dela.

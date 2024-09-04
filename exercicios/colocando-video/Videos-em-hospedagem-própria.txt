@@ -1,0 +1,20 @@
+Videos em hospedagem própria 
+
+temos a maneira de adicionar o vídeo no próprio site utilizando a tag <video> e selecionando o src do vídeo.
+também podemos acrescentar um parâmetro de width para diminuir a largura do vídeo na tela.
+
+para adicionarmos vídeos no site, vamos fazer igual áudio. iremos abrir a tag <video> apagar o src base e adicionar alguns source.
+
+e a dica importante é sempre adicionar do menor arquivo de vídeo para o maior.
+exemplo: 
+<video controls width="500px">
+        <source src="midia/video-m4v.mp4" type="video/mp4">
+        <source src="midia/video-webm.webm" type="video/webm">
+        <source src="midia/video-ogv.ogv" type="video/ogg">
+        <source src="midia/video-mp4.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+Para adicionar uma thumbnail para esses vídeos que são hospedados localmente, basta adicionar o parâmetro "poster"
+
+Essa maneira é a mais tradicional, porem ela consome um trafego de dados muito alto que vai acabar gerando grandes custos para o cliente.

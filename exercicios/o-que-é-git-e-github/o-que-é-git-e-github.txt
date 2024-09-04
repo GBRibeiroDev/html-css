@@ -1,0 +1,16 @@
+o-que-é-git-e-github?
+
+repositórios locais/remoto
+
+
+git:
+ele serve como um gerenciador de versões. basicamente se você esta trabalhando em um projeto longo, a tendencia é de que você crie varias versões dele como versão 1.0, 2.0, 3.0 e etc. e o git serve justamente para caso você não esteja satisfeito com uma versão, poder voltar para a outra. exemplo:
+não estou satisfeito com a versão 3.0, vou voltar a trabalhar desde a 2.0 ou 1.0... basicamente git é os "saves" que tinha nos jogos de ps2 kkkkk
+
+
+observação: vale lembrar que o git é um versionamento de software local.
+
+
+GitHub:
+
+É um backup na nuvem, basicamente um repositório online para salvarmos os nossos projetos e nos precaver caso de algum problema no repositório local. também podemos hospedar projetos nele e mandar para o cliente ver se está ficando satisfeito, se deseja mudanças e etc.

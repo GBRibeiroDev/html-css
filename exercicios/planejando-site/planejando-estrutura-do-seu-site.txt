@@ -1,0 +1,19 @@
+planejando-estrutura-do-seu-site
+
+o planejamento do site é muito importante antes de começar a construir qualquer site.
+
+para isso vamos utilizar uma ferramenta online para planejarmos o nosso site
+
+o que precisamos planejar?
+1- layout do site
+2- as cores do site
+3- as fontes que vão ser usadas.
+
+planejando layout:
+iremos utilizar o mockflow para ajudar a construir o layout do nosso site
+
+planejando cores:
+coolors adobe
+
+planejando fontes: 
+google fonts e dafont caso não tenha no google fonts

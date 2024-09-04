@@ -1,0 +1,21 @@
+peso-estilo-shorthand-font
+
+peso: é quando fazemos a fonte ficar mais grossinha ou mais fininha. (isso para fontes que possuem famílias tipográficas.)
+
+para definir o peso da fonte nós utilizamos o font-weight
+
+cuidado na hora de escrever para não confundir weight (peso) com width (largura) e height (altura). 
+
+existe alguns pesos para cada fonte, são eles os seguintes pesos:
+lighter, normal, bold e bolder. 
+
+outro tipo de variação da família tipográfica que tbm podemos ter é a numérica que começa em 100 e termina em 900.
+
+para escolhermos se queremos fonte em itálico, utilizamos o font-style. 
+
+para deixarmos a fonte sublinhada nos utilizamos o text-decoration: underline
+
+shorthand para fonte é o "font". 
+
+a ordem dessa shorthand é a seguinte: 
+- font-style -> font-weight -> font-size -> font-family 

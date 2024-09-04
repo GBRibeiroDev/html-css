@@ -1,0 +1,14 @@
+familia-de-fonte-com-css
+
+é muito importante sempre trabalhar com mais de uma fonte. 
+para isso, existe as chamadas de safe combination do css que são conjuntos de fontes que você coloca no seu site para ser utilizadas em qualquer dispositivo
+exemplo: 
+font-family: 'Courier New', Courier, monospace
+na linha acima ta dizendo que primeiro é para utilizar a courier new, depois a courier e caso não tenha nenhuma das duas no dispositivo, é para usar alguma fonte monoespaçada.
+
+podemos achar as safe combinations dentro do próprio vscode que disponibiliza algumas opções para gente ou também podemos ir no google procurar por "css web safe fonts"
+
+também podemos usar 3 tipos genéricos de fonte no css:
+serif
+sans-serif 
+monospace

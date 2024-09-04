@@ -1,0 +1,8 @@
+configurando-header
+
+nesse exemplo irei colocar um header com altura mínima de 150px. eu defino isso para evitar de diminuir o tamanho da tela e diminuir o header junto.
+propriedade nova que descobri nessa aula é que posso utilizar um padding top. antes eu definia padding no geral ou margin e isso acabava me limitando em diversos aspectos como vazamento de caixa. 
+
+também podemos utilizar um max-width nos parágrafos para determinar que não fique o texto todo em linha reta, mas quando fazemos isso o paragrafo automaticamente vira um bloco, sendo assim ele perde a propriedade de text-align center e temos que utilizar o margin auto para centralizar o mesmo.
+
+para o paragrafo do header se expremer e não ficar grudado, também podemos criar um padding para as laterais right e left

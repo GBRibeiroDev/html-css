@@ -1,0 +1,5 @@
+usando-id-no-css
+
+tudo no html que é id no css é = #
+tudo no html que é class no css é = .
+

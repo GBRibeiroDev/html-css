@@ -1,0 +1,59 @@
+Colocando áudio no seu site
+
+para colocarmos áudio no site, devemos utilizar a tag <audio> e dentro dela colocar o parâmetro "autoplay" e o "controls" 
+ficando igual o exemplo abaixo:
+
+<audio src="midias/musica01.mp3" controls autoplay></audio>
+
+observação:
+para o áudio rodar perfeitamente em qualquer navegador, é necessário que ele esteja em algum dos formatos abaixo:
+<!--MP3 WAV OGG-->
+
+Essa foi a primeira maneira de adicionar áudio. Agora veremos a segunda
+para utilizar a segunda maneira de adicionar áudio no site nós iremos abrir uma tag <audio> e apagar o src que vem nela, para colocarmos o source de forma manual.
+então eu abro a tag <audio> apago o src que vem nela e coloco o source:src
+esse src vem com o type e precisamos conferir o media type correto de cada arquivo para fazer reproduzir. No caso do mp3 o type correto é o áudio/MPEG
+exemplo:
+<audio>
+        <source src="midias/musica01.mp3" type="audio/mpeg">
+</audio>
+
+types dos principais arquivos:
+mp3 = áudio/MPEG
+wav = áudio/wav
+ogg = áudio/ogg
+
+é muito importante que nesse procedimento, coloquemos os 3 formatos de áudio para garantir que o navegador vai ter suporte para o cliente escutar o áudio.
+sendo assim, depois de colocarmos o áudio em 3 formatos diferentes, precisamos adicionar um paragrafo informando que caso o navegador do cliente não carregou nenhum dos três
+arquivos, é pq infelizmente o navegador dele não tem compatibilidade com os áudios fornecidos.
+Exemplo: 
+<audio>
+        <source src="midias/musica01.mp3" type="audio/mpeg">
+        <source src="midias/musica01.wav" type="audio/wav">
+        <source src="midias/musica01.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midias/musica01.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+</audio>
+
+Importante também adicionarmos alguns parâmetros dentro da tag áudio para podermos fazer o player funcionar.
+Um desses parâmetros  é o preload.
+o preload tem algumas opções dentro dele sendo elas "auto" que é a padrão de todo site, metadata e none.
+
+Auto: Ele vai dizer para o navegador que o seu site só vai terminar de carregar depois de carregar o arquivo de áudio e normalmente os arquivos de áudios são pesados, isso faz com que não seja interessante para gente pensando na visão do cliente deixar essa opção marcada.
+
+metadata: ele vai carregar só algumas informações do arquivo como nome, duração, data...
+
+none: não vai carregar nada, somente se o cliente apertar no play que ira carregar o arquivo.
+
+
+Eu particularmente irei aderir ao uso do metadata pq acho mais interessante, mas é coisa para se ir testando com o tempo.
+
+também irei adicionar outros parâmetros como o loop caso queira que fique tocando em looping (mas não recomendo) 
+
+colocarei o parâmetro controls também que é para aparecer os controles dos arquivos de áudio 
+
+o parâmetro de autoplay serve para o áudio começar a ser reproduzido automaticamente toda vez que atualizar o site. 
+
+observação: é muito importante tentarmos evitar a utilização dos arquivos wavs pois eles são muito pesados e podem acabar atrapalhando a experiencia do usuário quando for entrar no nosso site.
+
+
+

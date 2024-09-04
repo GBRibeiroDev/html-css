@@ -1,0 +1,27 @@
+pseudo-classes-em-CSS
+
+display: inline-block serve para deixar as divs uma do lado da outra. 
+
+as pseudo-classes são representadas com : <- dois pontos.
+
+as pseudo-classes são relacionadas ao estado de um determinado elemento. (hover é quando passa o mouse dentro do elemento que está com a pseudo-classe :hover por exemplo) 
+
+div > p significa que só vamos mexer no paragrafo que se encontra dentro da div. 
+
+para fazermos um texto escondido, vamos fazer da seguinte forma: 
+div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+        }
+
+o primeiro código é para esconder o paragrafo dentro da div e o segundo é dizendo para ele aparecer quando passar o mouse em cima.
+
+
+
+algumas pseudo classes:
+hover quando passa em cima
+visited quando é visitado
+active é quando está ativo (quando vc clica nele) 

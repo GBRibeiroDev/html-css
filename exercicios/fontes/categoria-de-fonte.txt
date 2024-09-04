@@ -1,0 +1,8 @@
+categoria-de-fonte
+
+categorias de fontes existentes: 
+- serifadas
+- sans-serif. // hoje em dia a recomendação é de que em sites com leituras longas se utilize fontes não serifadas para facilitar a leitura do cliente. 
+- monoespaçada // fontes que possuem o mesmo espaço (largura) para todas as letras. 
+- handwriting // fontes que simulam a calegrafia humana
+- display // fonte que não tem nenhuma caracteristica das de cima. são fontes "comemorativas" 

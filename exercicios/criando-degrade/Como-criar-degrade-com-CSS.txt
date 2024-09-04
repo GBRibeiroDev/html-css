@@ -1,0 +1,28 @@
+Como-criar-degrade-com-CSS
+
+
+para criarmos um gradiente no css, precisamos adicionar no css o background-image: linear-gradiente()
+
+nesse linear-gradiente eu vou indicar primeiro a direção e depois quantas cores eu quiser 
+
+exemplo: 
+background-image: linear-gradient(to right, #fff, #262626);
+
+direções que você pode colocar o degrade:
+to right
+to left
+to top
+to bottom
+
+e também temos a opção de colocar os graus para indicar uma direção mais especifica.
+
+
+observação: a tag >background-attachment: fixed< serve para deixar o fundo fixo, evitando scroll.
+
+também podemos fazer um gradiente redondo substituindo o "linear" por "radial" ficando assim:
+radial-gradiente(circle)
+
+também podemos escolher o tamanho de todas as cores do gradiente apenas colocando a porcentagem desejada depois da cor escolhida.
+
+exemplo: 
+background-image: linear-gradient(to right,#8449BF 50%, #A746AD, #C4458C, #F2994B, #F27457);

@@ -1,0 +1,9 @@
+Imagens dinâmicas
+
+Para testar as imagens dinâmicas que no caso são imagens que se ajustam com a tela que está sendo utilizada (pc, celular, tablet, tv e etc)
+vamos criar 3 modelos de imagem no fotoshop
+
+pequena: 300 x 300
+media: 700 x 700
+grande: 1000 x 1000
+

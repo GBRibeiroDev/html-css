@@ -1,0 +1,18 @@
+tamanho-de-fonte-e-suas-medidas
+
+nós temos as medidas absolutas e as medidas relativas. 
+
+medidas absolutas
+cm, mm, in, px, pt, pc
+
+medidas relativas 
+em, ex, rem, vw, vh, %
+
+a w3school recomenda utilizarmos somente o px e o em. 
+por padrão, os navegadores colocam uma altura de 16px que tbm é equivalente a 1em.
+
+16px = 1em.
+
+em trabalhamos com 0.5, 1em, 1.5em e etc.
+
+a recomendação é utilizar em sempre pq trabalhamos com a porcentagem do tamanho da fonte padrão 

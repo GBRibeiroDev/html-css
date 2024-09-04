@@ -1,0 +1,6 @@
+incorporação-de-videos-externos
+
+basicamente iremos utilizar o serviço de iframes que tem disponível no youtube e no vimeo.
+vale lembrar que no youtube o vídeo é de acesso publico e você não consegue privar os vídeos somente para assinantes.
+
+em caso de vídeos privados somente para assinantes, é necessário utilizar um serviço pago do vimeo.

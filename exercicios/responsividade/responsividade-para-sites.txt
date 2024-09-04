@@ -1,0 +1,18 @@
+responsividade-para-sites
+
+responsividade é um conceito bem simples que é adaptar o tamanho e conteúdo do seu site em telas variadas. 
+
+o ideal é colocarmos a largura máxima sempre em 1200px, é basicamente o padrão a se utilizar pq criamos um bloco que é adaptável e não é muito largo.
+
+ao invés de utilizar o width, temos 2 propriedades que são mais responsivas do que ele que são:
+
+min-width:
+max-width: 
+
+basicamente o min e max width serve para você dizer em quais medidas o conteúdo para de diminuir e crescer 
+
+quando adicionamos um width 100% nas imagens, queremos dizer que a imagem vai se expremer e ir adaptando conforme o conteúdo vá diminuindo ou crescendo.
+isso basicamente serve para que as imagens não fiquem vazando para fora da tag main. é algo muito importante de se utilizar quando o assunto é responsividade.
+
+
+uma imagem por padrão não é um bloco, então podemos colocar display: block e margin: auto para centralizar uma imagem.
