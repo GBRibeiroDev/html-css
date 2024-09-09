@@ -1,0 +1,11 @@
+atualizando-repositorio-local/online
+
+Para atualizar o repositório local é necessário fazer um commit pelo GitHub desktop.
+
+Para atualizar o repositório online, basta fazer um "push origin" depois de commitar no repositório local.
+
+Para excluir um repositório é muito importante removermos tanto o local quanto o online.
+
+Para excluirmos o local, é necessário ir no GitHub desktop -> repositor -> remove.
+
+Depois de fazer isso, é necessário logar no GitHub, selecionar o repositório online e excluir ele.

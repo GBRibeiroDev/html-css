@@ -1,0 +1,5 @@
+clonando-repositorios-GitHub
+
+Para clonar um repositório, basta abrir esse repositório no GitHub, procurar a opção de <code> e colocar em "abrir com GitHub desktop". 
+
+Importante lembrar que é necessário ter git e GitHub desktop instalados no PC que formos executar a clonagem.
