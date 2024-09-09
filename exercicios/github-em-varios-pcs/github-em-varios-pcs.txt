@@ -1,0 +1,20 @@
+github-em-varios-pcs
+
+tenho que ter instalado git e GitHub desktop no pc que for trabalhar, além do vscode. 
+
+primeiro passo é entrar em file e ir em account e logar na minha conta do GitHub.
+
+feito isso, eu preciso clicar em file novamente e ir na opção de git e salvo.
+
+é necessário fazer esse passo a passo por conta de um erro que existe dentro do GitHub para caso vc tente clonar diretamente.
+
+também é importante criar uma pasta com algum nome de minha preferencia para poder salvar os repositórios clonados.
+
+também é importante remover o repositório que utilizamos para trabalhar em pc externo do pc. isso faz com que não tenha risco de outra pessoa alterar nossos arquivos e nem ter acesso a nossa conta GitHub, fora que tamém ajuda o próximo e for usar o pc.
+
+para isso temos que abrir o GitHub desktop e fazer os seguintes passos:
+
+1- Signout
+2- Git -> remove email e repositório
+3- esvaziar a lixeira.
+
