@@ -1,0 +1,5 @@
+colocando-imagem-de-fundo
+
+precisamos utilizar o background-image e adicionar url. dentro da url iremos colocar aspas e colocar o caminho para a imagem pois nessa versão do vscode ainda não tem como utilizar o atalho de ctrl espaço para achar a imagem. 
+
+as imagens sempre são carregadas por padrão no seu tamanho total. 
