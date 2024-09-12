@@ -1,0 +1,39 @@
+configurando-posicao-da-imagem-de-fundo-do-site
+
+background-position
+
+basicamente para usar o background position, nós escolhemos qual o ponto de posicionamento queremos a imagem
+exemplos:
+        div#q1 {
+            background-position: left top;
+        }
+
+
+        div#q2 {
+            background-position: left center;
+        }
+
+
+        div#q3 {
+            background-position: right bottom;
+        }
+
+
+        div#q4 {
+            background-position: center center;
+        }
+
+em cada um desses exemplos as imagens foram alinhadas de formas diferentes. 
+
+na hora de definirmos o background-position, primeiro escolhemos coluna e depois a linha.
+
+colunas:
+left, center e right
+
+linhas: 
+top, center e bottom. 
+
+
+observação: é muito importante quando formos adicionar imagem de fundo no site, definir a altura do body pq por padrão quando não botamos conteúdo, o body fica achatado.
+
+Algo que o professor não acabou falando, mas que pode ser muito útil em alguns casos, é poder utilizar "px", no lugar das referências como "left" e "center", sendo o primeiro px para a posição X e o segundo para a posição Y. 

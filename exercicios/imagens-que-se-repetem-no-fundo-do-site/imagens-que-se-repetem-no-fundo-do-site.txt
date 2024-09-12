@@ -1,0 +1,16 @@
+imagens-que-se-repetem-no-fundo-do-site
+
+com background image url tbm podemos colocar dentro das aspas uma url de wallpaper. porem, se a imagem sair do ar, você vai perder o seu wallpaper e por conta disso é sempre bom optar por uma imagem que esteja no seu servidor e você tenha controle dela.
+
+background-size é para definir o tamanho da imagem. 100px 100px significa altura e largura. 
+
+a repetição da imagem quando ela não ocupa 100% da viewport é automática, mas nós podemos configurar isso utilizando o background-repeat
+
+na propriedade background-repeat temos algumas opções que vou deixar abaixo.
+
+repeat = repetir a imagem varias vezes até ela preencher 100% da viewport
+no-repeat = não repete a imagem. deixando ela somente no tamanho original
+repeat-x = repete no eixo x que no caso é o eixo que fica deitado
+repeat-y = repete no eixo y que no caso é o eixo que fica em pé
+
+observação: a imagem sempre vai carregar no tamanho padrão dela, só tem como mudar isso caso eu adicione um background-size.
