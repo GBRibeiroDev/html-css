@@ -1,0 +1,17 @@
+Mudando-o-tamanho-da-imagem-de-fundo-do-site
+
+
+é importante que mesmo que nos utilizemos imagem de fundo, definirmos também uma cor de fundo para o nosso site. Isso é importante pq a primeira coisa que carrega nos sites são os textos e depois a imagem de fundo.
+
+para fazermos a imagem cobrir toda a tela (da esquerda para a direita) nós podemos definir um background-size: 100%. mas essa não é a melhor maneira de resolver isso. 
+
+então podemos utilizar duas propriedades escritas do background-size para resolver esse problema.
+
+por padrão, background-size vem com a configuração: auto. 
+
+temos duas opções além do auto e são elas:
+contain e cover.
+
+contain: ele faz com que a imagem seja 100% exibida, sem corte algum. 
+
+cover: essa é a opção mais interessante para gente pq cover significa cobrir. ele vai fazer caber nossa imagem completa no site, mesmo que pra isso ele tenha que dar uma picotada na imagem, seja nas laterais ou em cima. ou seja, ele não exibe 100% da imagem, mas exibe 100% da vh
