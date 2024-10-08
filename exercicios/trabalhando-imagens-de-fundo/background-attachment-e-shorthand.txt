@@ -1,0 +1,26 @@
+background-attachment-e-shorthand
+
+attachment significa: vínculo. 
+Ele serve para definir o vínculo da nossa imagem com o nosso conteúdo. 
+
+e para utilizar o background-attachment, nós temos 2 opções 
+
+scroll e fixed
+
+scroll: é o que vem padronizado, ele é responsável por fazer a imagem de fundo rolar junto com o conteúdo. 
+
+fixed: ele deixa o fundo fixo e só rola o conteúdo. 
+
+então para termos um fundo mostrando 100% da imagem + fundo fixo, basta combinarmos o background-size: cover com o background-attachnent: fixed
+
+shorthand de background segue a seguinte posição:
+
+background:
+color > image > position > repeat > {size} > attachment
+
+exemplo feito: 
+            background: #000 url(imagens/wallpaper002.jpg)
+            center center no-repeat cover fixed;
+
+observação importante: 
+o background-size não está funcionando na shorthand. Isso nos faz sermos obrigados a ter que utilizar o background-size separado da shorthand.

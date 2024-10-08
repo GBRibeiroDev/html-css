@@ -1,0 +1,31 @@
+centralizacao-vertical-de-caixas
+
+anteriormente aprendemos que para alinhar o conteúdo horizontalmente, basta adicionarmos o margin: auto
+
+agora vamos aprender a alinhar ele verticalmente.
+
+Infelizmente não podemos utilizar o margin nesses casos, então vamos utilizar o parâmetro position: relative
+
+observação: por padrão todo elemento dentro de alguma caixa é relative. colocamos apenas para fazer uma observação de como funciona. 
+
+então adicionando o position relative no nosso container, vamos agora adicionar o position: absolute no conteúdo 
+
+o position absolute nos faz podermos configurar 2 propriedades que antes não podíamos:
+
+left e top. 
+
+exemplo: 
+left: 10px 
+top: 20px
+
+mas px não é a forma mais eficaz que nós temos de editar algo caso nossa intenção seja centralizar caixas. para isso nós vamos utilizar o transform dentro do conteúdo.
+
+transform é eu mexer em qualquer caixa aplicando a função de transformação nela. 
+
+iremos utilizar o transform translate
+
+lembrando que esse translate mexe na direta e para baixo. então com left e top nós mexemos na esquerda e para cima, com translate mexemos para direita e para baixo.
+
+nesse caso para centralizar, vamos utilizar -50%, -50% tendo em vista que lef e top já estão 50%.
+
+sendo assim, nossa caixa vai ficar alinhada no meio perfeitamente.
