@@ -1,0 +1,3 @@
+imagens-com-efeito-parallax-simples
+
+para fazer o efeito parallax, basta configurar as imagens dentro da section da sua preferencia e no final adicionar o attachment: fixed. 
