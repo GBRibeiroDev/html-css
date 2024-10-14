@@ -1,0 +1,33 @@
+criando-tabelas
+
+Primeiro passo para criar uma tabela é necessário utilizar a tag table e preencher ela com os dados.
+
+    <!--
+    HIERARQUIA DE TABELAS (simples)
+    TABLE = tabela 
+        TABLE ROW = linha de tabela
+            TABLE HEADER = cabeçalho de tabela
+            TABLE DATA = dado de tabela
+    -->
+
+table row = tr
+table data = td
+
+para tirar os espaços que existem entre as bordas do td, podemos ir no table dentro do css e adicionar o border-collapse.
+
+por padrão ele vem em separate, mas nós vamos mudar para colapse.
+
+
+
+observação: não é necessário fechar a tag "td" e "tr". isso é algo bom para deixar nosso código mais limpo. 
+
+
+se a hierarquia não for obedecida, os dados colocados irão aparecer ou antes ou depois da tabela.
+
+para alinharmos o td de forma horizontal iremos utilizar o text-align normalmente e para alinhar ele na vertical iremos utilizar o vertical-align
+
+vertical-align tem 3 opções:
+top
+middle
+bottom
+
