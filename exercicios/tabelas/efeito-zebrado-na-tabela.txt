@@ -1,0 +1,15 @@
+efeito-zebrado-na-tabela
+
+primeiramente nós precisamos definir que o efeito zebrado vai ser somente nas linhas do tbody. 
+pra isso precisamos ir no css e criar um seletor para tbody tr e adicionar uma pseudo classe para eles
+exemplo: 
+tbody > tr:nth-child(2n)
+
+esse 2n significa que de 2 em 2 linhas eu quero uma listra. nada impede que eu mude para de 3 em 3 ou algo do tipo. 
+
+uma outra maneira que também podemos utilizar é ao invés de usar o 2n, colocar par ou impar em inglês. 
+
+para definir que as linhas zebradas sejam as impares, basta colocar "odd" e em caso de preferencia pelas linhas pares, basta colocar "even"
+
+também posso fazer um efeito zebrado criando outro seletor e nele colocando impar e no outro par, nada impede de fazer essa mesclagem de cores.
+

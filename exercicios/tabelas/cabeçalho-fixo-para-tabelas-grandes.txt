@@ -1,0 +1,17 @@
+cabeçalho-fixo-para-tabelas-grandes
+
+o primeiro passo é adicionar um position relative na tabela.
+
+depois disso vamos criar um 
+thead > tr > th
+
+dentro desse seletor eu irei adicionar um position: sticky e em seguida adicionar um top: -1px para poder dizer que ele vai colar no 0. só que isso só cola os títulos, sem o background. Para resolver isso, nós iremos adicionar um background-color nesse seletor com a mesma cor do thead.
+
+exemplo:
+
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #1452c5;
+        }

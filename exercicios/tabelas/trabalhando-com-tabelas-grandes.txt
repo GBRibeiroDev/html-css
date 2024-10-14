@@ -6,10 +6,19 @@ as tabelas grandes são compostas por thead, tbody e tfoot
 
     ANATOMIA PARA TABELAS GRANDES
     TABLE
+	CAPTION <-- Caption basicamente é a legenda da nossa tabela. ele fica logo abaixo do table.
         THEAD
             TR, TD, TH
         TBODY
             TR, TD, TH
         TFOOTER
             TR, TD, TH
+
+também devemos utilizar os escopos de tabelas, que servem como parte semântica da mesma.
+no caso iremos no th e iremos avisar que ele é um titulo de coluna por exemplo.
+para fazer isso, basta ir dentro do th e adicionar o scope: col ou row.
+
+no caso dessa nossa tabela em especifico eu irei utilizar os dois, tanto o col dentro do thead quanto o row dentro do tfoot.
+
+também podemos mudar a largura das colunas indo no thead da coluna desejada e fazendo um css inline. nesse caso fui no thead de população e coloquei um width de 50px.
 
