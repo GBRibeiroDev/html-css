@@ -1,0 +1,15 @@
+trabalhando-com-tabelas-grandes
+
+
+as tabelas grandes são compostas por thead, tbody e tfoot
+
+
+    ANATOMIA PARA TABELAS GRANDES
+    TABLE
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOTER
+            TR, TD, TH
+
