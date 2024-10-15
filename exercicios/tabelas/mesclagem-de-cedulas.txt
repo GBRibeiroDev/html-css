@@ -1,0 +1,11 @@
+mesclagem-de-cédulas
+
+mesclagem de cédulas é quando queremos que algum dado (td) ocupe mais de uma coluna ou linha.
+
+para definir isso é bem simples, basta utilizarmos o colspan dentro do próprio td e dizer quantas colunas iremos querer que ele ocupe.
+
+exemplo: 
+<td colspan="2">B</td>
+
+então para definirmos expansão de coluna ou linha, basta adicionarmos colspan ou rowspan.
+
