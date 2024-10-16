@@ -1,0 +1,10 @@
+conteudo-no-iframe-por-codigo
+
+para adicionarmos o equivalente a uma thumb no nosso iframe para ele não ficar em branco, nós podemos utilizar o parâmetro srcdoc.
+
+dentro desse srcdoc. eu posso criar códigos de forma manual (abrindo e fechando as tags), posso colocar também imagens
+
+exemplo:
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima </h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vero ipsam quidem temporibus maiores minima, quis eveniet aspernatur eum ipsum, nulla animi! Nostrum id maiores inventore quas laudantium. Libero, similique.</p><img src='imagens/wallpaper.jpg'></img>">Infelizmente seu navegador não é compatível com isso.</iframe>
+
+observação: acho isso um pouco bagunçado, talvez um tanto quanto inútil, mas é uma opção.

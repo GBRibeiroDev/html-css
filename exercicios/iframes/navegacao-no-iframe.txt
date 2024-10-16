@@ -1,0 +1,8 @@
+navegacao-no-iframe
+
+para fazermos uma página local abrir dentro do iframe, precisamos adicionar um "name" no iframe.
+feito isso, basta ir no link da pagina que desejamos carregar e no target dela colocarmos o "name" dado ao iframe.
+
+exemplo: 
+<li><a href="paginas-extras/pagina001.html" target="frame">Primeira Página</a></li>
+<iframe id="tela" name="frame" src="#">Infelizmente seu navegador não é compatível com isso.</iframe>

@@ -1,0 +1,4 @@
+conteudo-local-no-iframe
+
+para isso basta criarmos outra pagina dentro da pasta e no lugar do link que adicionaríamos no src, colocarmos o caminho para essa página.
+

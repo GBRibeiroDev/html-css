@@ -1,0 +1,22 @@
+configurando-iframe
+
+observação: nem todos os dispositivos moveis tem suporte para iframe, então tudo que nós colorcamos por escrito dentro da tag iframe logo após o link, aparecera nos dispositivos que não tiverem suporte.
+
+exemplo:
+        <iframe src="https://www.cursoemvideo.com" frameborder="0">
+            <a href="https://www.cursoemvideo.com">Curso em Vídeo</a>
+        </iframe>
+
+também podemos configurar o tamanho e altura de um iframe que por padrão tem o tamanho de 300x150px. 
+
+além de podermos alterar as medidas adicionando os parâmetros width e heigh dentro da tag iframe, também podemos alterar via css. e as css são soberanas. caso configure inline no iframe e depois faça um seletor nas css, as css prevalecem.
+
+também podemos mexer na rolagem lateral criando um parâmetro dentro do iframe chamado "scolling"
+
+dentro desse scolling nós temos algumas opções:
+auto = esse é o padrão. ele significa que se o conteúdo for maior que a janela do iframe, vai gerar uma barra de rolagem.
+yes = esse significa que mesmo que o conteúdo caiba todo dentro do iframe, ele ira criar barra de rolagem também. 
+no = mesmo que o conteúdo seja maior, não vai ter scroll. mas isso depende de alguns navegadores.
+
+frameborder = esse é um parâmetro que vem de fabrica também com o iframe. porem, ele só aceita dois valores que é 0 ou 1 pra dizer se quer ou não a borda. para termos algo mais personalizado, teremos que utilizar as css mesmo. 
+

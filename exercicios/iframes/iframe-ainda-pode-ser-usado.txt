@@ -1,0 +1,8 @@
+iframe-ainda-pode-ser-usado
+
+uma das maneiras de utilizarmos iframe é criando um. Para isso, basta criar uma tag iframe e adicionar dentro dela um src para o site desejado. 
+
+basicamente o iframe é como se fosse uma nova guia de um site aberto dentro do seu, simulando uma "janela"
+
+observação: por questões de segurança, alguns sites não serão exibidos em iframes por não darem autorização para serem colocados em páginas de terceiros. 
+
