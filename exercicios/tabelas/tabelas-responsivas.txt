@@ -1,0 +1,11 @@
+tabelas-responsivas
+
+para deixarmos uma tabela responsiva, o primeiro passo é envelopar ela dentro de uma div.
+em seguida vamos criar um seletor para essa div no css e colocar um overflow: auto.
+
+lembrando que o overflow pega o conteúdo que está vazando tanto na vertical quanto na horizontal
+eixo y = vertical
+eixo x = horizontal
+
+basta fazer isso e a tabela ficara responsiva, criando um scroll dela mesmo, não da pagina como um todo. 
+

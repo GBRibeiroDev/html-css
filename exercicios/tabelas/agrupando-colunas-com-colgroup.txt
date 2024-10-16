@@ -1,0 +1,33 @@
+agrupando-colunas-com-colgroup
+
+
+para selecionarmos rows com css basta criar uma class, é bem fácil. 
+porem, a maneira de fazermos isso com colunas é bem diferente. Para isso nós precisamos criar uma tag colgroup e adicionar a quantidade de col desejadas nela. 
+
+exemplo: 
+
+        <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        </colgroup>
+
+
+e dentro dessas colunas eu posso dar class para cada uma delas para poder ter fácil identificação na hora de mexer no css dela. 
+
+exemplo:
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+        </colgroup>
+
+caso eu queira dar a mesma configuração para mais de uma coluna, basta adicionar uma class qualquer "cgroup" por exemplo e colocar span desejado nela.
+
+exemplo: 
+
+        <col class="cnome">
+        <col class="cgrupo" span="2">
+        <col class="cprof">

@@ -1,0 +1,10 @@
+Escopos-de-grupo
+
+th sempre precisa de um escopo. 
+
+quando temos um th que serve para mais de uma coluna, nós devemos colocar o scopo de colgroup, o mesmo se aplica para row também. 
+
+Isso acontece pq caso a gente coloque somente "col" ele vai pegar somente os dados da coluna que vem logo abaixo dele.
+
+observação: não é sempre que tem mesclagem que vai ser grupo. 
+
