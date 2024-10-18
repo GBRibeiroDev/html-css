@@ -1,0 +1,13 @@
+criando-menu-lateral
+
+para transformar as imagens quadradas em redondas, basta colocar um border radius de 50%. 
+
+quando formos colocar borda dentro do hover de img, ela não vai fazer parte da imagem e com isso vai criar uma transação brusca. para resolver isso, basta ir em redes-sociais img e acrescentar um box-sizing: border-box
+
+isso serve para dizer que a borda está fazendo parte da caixa.
+
+para fazer a animação, iremos colocar dentro do rolver um transform translate e escolher as dimensões do left e top quando o hover acontecer, exemplo: 
+transform: translate(3px, 3px);
+
+
+e para deixar mais suave a animação dos ícones, vamos adicionar um transition transform
