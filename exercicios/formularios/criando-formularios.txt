@@ -1,0 +1,22 @@
+criando-formularios
+
+para criarmos um formulário é importante dizer que todos eles tem que ser criados utilizando a tag form.
+
+lembrando que essa maneira é a mais simples possível e que tem diversos parâmetros extremamente importantes, mas que vamos ver futuramente. 
+
+e para transformar algo em botão, nos iremos utilizar a tag input, mais especificamente input:text nesse caso como podemos ver no exemplo abaixo:
+
+e para criarmos um botão de enviar, basta utilizarmos o input:submit
+
+para desativarmos o preenchimento automático, basta irmos na tag form e adicionarmos o parâmetro "autocomplete: off"
+
+precisamos enviar os dados do nosso formulário para algum lugar, então para isso precisamos utilizar alguma linguagem de programação ligada a backend.
+para fazer isso, iremos criar um parâmetro "action" dentro da tag form e colocar para onde será enviado esses dados, no exemplo que usei vou utilizar php.
+
+
+<form action="cadastro.php" autocomplete="off">
+
+name e id são utilizados para identificar as coisas e mais resumidamente:
+name = mais útil para php e html
+id = mais útil para javascript
+

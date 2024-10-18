@@ -1,0 +1,29 @@
+criando-caixas-de-texto-e-senha
+
+Aprendemos mais alguns tipos de input:
+
+password = input para senha
+reset = input para limpar as caixas 
+
+para tornarmos um campo obrigatório, sempre vamos adicionar o atributo de "required" dentro do input
+exemplo:
+<input type="text" name="usu" id="iusu" required>
+
+também temos a opção de dizer quantos caracteres mínimos e máximos são necessários. 
+para definir o mínimo utilizamos: 
+minlength
+
+para definirmos o máximo, utilizamos: 
+maxlength
+
+também podemos mudar o tamanho da caixa para aparecer só uma quantidade especifica de caracteres. para isso basta utilizar o parâmetro "size"
+
+observação: esse size na maioria das vezes erra pois as letras possuem tamanhos diferentes.
+
+para colocarmos dicas do que preencher na caixa de input, basta adicionarmos o parâmetro: placeholder
+
+para formulários é interessante deixarmos o autocomplete ligado, pois nosso navegador armazena nossos dados. 
+para conseguirmos puxar esses dados já armazenados no nosso navegador, precisamos utilizar o autocomplete dentro dos inputs, ao invés de usarmos dentro do form. isso acontece por conta de que se utilizarmos o autocomplete dentro dos inputs, ele vai nos dar uma lista de opções para definirmos o que é que ele precisa puxar os dados.
+
+para utilizarmos uma senha salva, utilizamos o current-password. para uma nova senha utilizamos o new-password
+

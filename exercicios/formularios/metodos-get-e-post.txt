@@ -1,0 +1,29 @@
+metodos-get-e-post
+
+get e post são métodos de envios de dados. 
+
+para definir o método de envio dos dados, iremos adicionar um parâmetro chamado "methods" dentro do form.
+
+por padrão, o método de envio de dados por formulário já vem como o método GET
+
+Get: é o método que envia seus dados para a URL da página
+
+Post: é o método que esconde os seus dados da URL, mas ainda sim não significa que está seguro, pois utilizando o inspencionar elemento, conseguimos acessar esses dados.
+
+para acessarmos os dados do método post, basta fazer os seguintes passos:
+inspencionar elemento > network > payload 
+
+para os dados ficarem completamente seguros, iremos precisar críptografálos utilizando https e estudando outra linguagem.
+
+
+quando usar get e post:
+
+Get: Será utilizado todas as vezes que os dados solicitados não forem dados sensíveis como senha,cartão de crédito, cep, endereço... e etc  
+se quisermos que a URL seja compartilhável, também utilizamos get.
+
+Também não iremos utilizar Get quando nosso formulário for enviar fotos ou mídias no geral.
+
+observação: o Get só envia dados que possuem até 3.000 caracteres. acima disso é necessário utilizar o Post
+
+
+Post: Iremos utilizar para enviar dados sensíveis, mídias e se tiverem mais de 3.000 caracteres.

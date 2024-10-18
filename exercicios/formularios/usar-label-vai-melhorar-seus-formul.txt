@@ -1,0 +1,10 @@
+usar-label-vai-melhorar-seus-formulários
+
+
+os labels servem para ligarmos um paragrafo a caixa de input. para fazermos essa conexão, precisamos utilizar a tag "label"
+após enveloparmos o paragrafo desejado com o label, ele vai nos dar um único parâmetro de volta, que é o "for"
+
+esse for é meio que uma pergunta "esse label é feito pra quem?" e é ai que nós iremos utilizar o nome colocado dentro do id
+exemplo:
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
