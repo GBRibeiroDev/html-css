@@ -1,0 +1,23 @@
+elementos-color-range-file
+
+podemos criar um input:color para o nosso cliente informar uma cor desejada.
+
+observação: para mudarmos a cor #000 que vem por padrão na caixa de input:color, basta utilizarmos o parâmetro value e colocar o código hexadecimal dela. 
+exemplo: 
+
+
+também podemos criar um input:range para podermos criar uma barra simulando aquelas de nível de satisfação.
+observação: o range vai do 0 ao 100. mas tem como mudar isso, definindo os parâmetros min e max. 
+
+também podemos definir um value para o range, basta adicionar o value e o numero desejado dele.
+
+atenção: esses dois inputs acima podem ter problemas de compatibilidade com alguns navegadores, é sempre bom testar em vários navegadores diferentes para verificarmos se está tudo funcionando direito. 
+
+também podemos utilizar o input:file que é para o nosso cliente upar algum arquivo de foto. 
+exemplo:
+            <label for="ifoto">Foto do perfil:</label>
+            <input type="file" name="foto" id="ifoto">
+
+observação: quando utilizarmos o input:file, nós não podemos utilizar o formulário no método get, é obrigatório que seja no método post. 
+
+

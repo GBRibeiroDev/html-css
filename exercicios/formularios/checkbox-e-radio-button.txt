@@ -1,0 +1,31 @@
+checkbox-e-radio-button
+
+
+para criarmos uma caixa de marcação, basta utilizarmos o input:checkbox
+
+para colocarmos as caixas de marcações uma de baixo da outra, basta adicionarmos um br depois de cada uma.
+sempre lembrando de colocar label nas opções de checkbox.
+exemplo: 
+            <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label> <br>
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label> <br>
+            <input type="checkbox" name="esten" id="iesten"> <label for="iesten">Tênis</label>
+
+também podemos criar o input:radio que é para marcarmos coisas como o sexo por exemplo, se é feminino ou masculino.
+
+observação: o radio tem um problema que é você marcar mais de uma opção e não conseguir desmarcar. para resolvermos isso, é necessário colocar o mesmo name para todos os rádios. lembrando que isso só se aplica ao radio, o checkbox não sofre com isso. 
+
+exemplo resolvido: 
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas"><label for="isxmas">Masculino</label> <br>
+            <input type="radio" name="sexo" id="isxfem"><label for="isxfem">Fêminino</label>
+        </fieldset>
+
+também podemos já deixar marcado por padrão alguma das opções desejadas, para isso basta adicionar o parâmetro "checked" dentro de algo.
+exemplo: 
+<input type="radio" name="sexo" id="isxmas" checked><label for="isxmas">Masculino</label>
+
+normalmente esses checkeds são utilizados quando baixamos algo que contenha os termos e condições. 
+

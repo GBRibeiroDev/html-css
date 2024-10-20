@@ -1,0 +1,22 @@
+formularios-com-telefone-email
+
+existe um input para email que é input:email.
+
+observação: ele é importante, mas não é tão importante assim tendo em vista que ele não necessariamente consegue validar se o email é real. esse input só obriga o usuário a utilizar um @ dentro da caixa. 
+
+para criarmos um input de telefone nós utilizamos o input:tel
+observação: ele tem uma compatibilidade adicional com telefones pois ele consegue puxar a lista de contatos. 
+
+podemos utilizar uma expressão regular chamada pattern (necessário estudar mais sobre RegEx). 
+
+todo pattern precisa começar com um ! e termina com um $.
+exemplo:
+<input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="![0-9]-[4]-[4]$">
+
+essa expressão regular (pattern) é uma expressão simples para números de telefone.
+ 
+
+podemos também criarmos um agrupamento de campos e pra isso basta envelopar todo o campo do formulário com uma tag chamada fieldset. 
+fieldset = grupo de campos
+
+também podemos adicionar uma legenda para esse grupo de campos utilizando uma tag "legend"

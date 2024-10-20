@@ -1,0 +1,25 @@
+elementos-number-month-date-e-time-em-formulários
+
+para colocarmos um input que aceite somente números, é necessário usar o input:number
+podemos também definir quais números serão aceito dentro desse input number. para isso, precisamos utilizar os atributos min e max. 
+exemplo:
+<input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10">
+
+porem, dessa maneira que fizemos, ele não aceita nota picada, como 5.5 para aceitar, precisamos utilizar o parâmetro "step"
+step significa "passo", ou seja, de quanto em quanto uma nota vai mudando. e dentro desse step nós precisamos dizer que ele é de 0.5. também podemos definir para o step enviar de decimo em decimo, basta colocar 0.1 ai fica a nosso critério. 
+
+exemplo do uso de step: 
+<input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.5">
+
+para adicionarmos um numero padrão de fabrica já preenchido no lugar do placeholder, nós podemos utilizar o parâmetro "value".
+
+input para definirmos mês nós chamamos de input:month
+
+exemplo do uso de value = <input type="month" name="mes" id="imes" value="2024-10">
+
+caso queiramos colocar dia, mês e ano nós podemos utilizar o input:date
+
+para adicionarmos um input de hora, nós utilizamos o input:time
+
+
+
