@@ -1,0 +1,56 @@
+elemento-output-em-formulários 
+
+o output nós utilizamos como caixa de saída quando vamos fazer uma soma ou algo do tipo, no lugar do input.
+exemplo:
+
+        <p>
+            <label for="isoma">Soma:</label>
+            <output id="isoma">0</output>
+        </p>
+
+agora vamos utilizar eventos para fazermos uma soma com JS.
+
+        <p>
+            <label for="in1">Número 1:</label>
+            <input type="number" name="n1" id="in1" min="0" max="50" required>
+        </p>
+
+na frente do required eu bou adicionar um oninput.
+
+oninput: significa que quando eu entrar com dados (ou seja, quando o cliente digitar um dado dentro do campo) eu vou fazer com que a caixa de isoma mude o html dela para o valor de n1 + n2.
+
+exemplo do código pronto:
+
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="in1">Número 1:</label>
+            <input type="number" name="n1" id="in1" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+
+        <p>
+            <label for="in2">Número 2:</label>
+            <input type="number" name="n2" id="in2" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+
+        <p>
+            <label for="isoma">Soma:</label>
+            <output id="isoma">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+observação sobre output: ele não serve para calcular e enviar no formulário. Ele serve somente para calcular e mostrar na tela.
+
+
+outro exemplo do uso de output:        
+ <p>
+            <label for="inum">Número: </label>
+            <input type="range" name="num" id="inum" min="0" max="10" value="5" oninput="ival.innerHTML = Number(inum.value)">
+            <output id="ival">5</output>
+        </p>
+
+nesse caso eu criei um range e coloquei para mostrar o valor de range dentro do output.

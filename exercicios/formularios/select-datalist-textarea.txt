@@ -1,0 +1,49 @@
+select-datalist-textarea
+
+para criarmos um seletor dentro do formulário, nós podemos utilizar a tag selection e dentro dela adicionar alguns options.
+exemplo:
+
+            <select name="estado" id="iest">
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select>
+
+também podemos separar essas opções por grupos, utilizando o optgroup.
+exemplo:
+
+            <select name="estado" id="iest">
+                <optgroup>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+
+e dentro desse optgroup também podemos definir um label para dizer sobre o que é aquele grupo que nós separamos.
+exemplo:
+<optgroup label="Região Sudeste">
+
+para deixar uma opção já pré definida, basta adicionar o parâmetro "selected" dentro do option desejado. 
+
+dica: normalmente o pessoa cria uma option chamada "escolha" para poder deixar como padrão utilizando o selected.
+exemplo:
+<option value="" selected>--- Escolha ---</option>
+
+também podemos criar datalistas utilizando a tag datalist e dentro dela utilizamos options para colocarmos as opções desejadas. dentro desses options terão values, é o local que nós podemos colocar os códigos de cada profissão como no exemplo abaixo:
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contabilista</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+
+observação: esse datalist serve porque caso não tenha a opção desejada pelo cliente, ele mesmo pode escrever manualmente. As opções que nós colocamos fica apenas como sugestão, mas também permitindo que o cliente escreva o que desejar dentro da caixa. 
+
+
+textarea:
+essa tag serve para criarmos uma caixa de mensagem para o cliente digitar. é importante lembrar que para aumentar ou diminuir o tamanho dessa caixa, nós podemos utilizar o cols e rows. esses dois atributos servem para dizer quantas colunas e linhas vão ficar visíveis na tela (lembrando que o cliente não tem um limite, ele pode digitar infinito.)
+
+observação: sempre que usarmos o textarea, o ideal é usarmos o método de formulário post por conta da limitação de 3.000 caracteres. 
+
