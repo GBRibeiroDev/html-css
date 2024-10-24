@@ -1,0 +1,13 @@
+criando-um-site-com-versao-para-impressora
+
+quando formos criar o link:css dentro do index, devemos adicionar um parâmetro dentro dele chamado "media" e definir para o que ele serve. se for para todas as telas, nós colocamos "all" se for apenas para aquela tela, colocamos o "screen"
+exemplo:
+<link rel="stylesheet" href="estilos/tela.css" media="screen">
+
+
+também podemos criar uma tela para impressora, ai a media que deve ser definida é a "print".
+exemplo:
+<link rel="stylesheet" href="estilos/impressora.css" media="print">
+
+observação: na versão de impressora é bom utilizarmos a fonte "courier new" pq ela é mono espaçada e possui serifas, isso ajuda a ler no papel.
+

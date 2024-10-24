@@ -1,0 +1,16 @@
+projetos-menores
+
+para projetos menores podemos configurar tudo junto.
+para isso basta dentro da tag style adicionarmos os medias types e features. 
+
+exemplo: 
+
+    /* Declarações Retrato */ 
+    @media screen and (orientation: portrait) {
+        
+    }
+    /* Declarações Paisagem */
+    @media screen and (orientation: landscape) {
+        
+
+esse método é bem bagunçado e é melhor optar por separar em pastas como já havia feito antes, mas também temos essas opções

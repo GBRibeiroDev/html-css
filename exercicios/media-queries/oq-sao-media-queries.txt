@@ -1,0 +1,27 @@
+oq-sao-media-queries
+
+são as formas de fazermos o nosso site ser responsivo para varias telas diferentes.
+
+media query é formada por = media type + media features 
+
+media type: tipo de mídia como o parâmetro que eu coloquei no outro exemplo. serve para nos dizer a caracteristica de tela que estamos trabalhando, mas basicamente nós iremos trabalhar com 3 media types que são:
+screen: serve para vários modelos de telas
+
+print: serve para versão que vai ser imprimida
+
+all: todas as telas 
+
+
+tem algumas configurações de css que vamos repetir nos dois tipos de telas, sendo assim nós vamos colocar essas informações que se repetem dentro de uma media "all"
+
+observação: os dispositivos conseguem verificar a orientação do seu dispositivo, ou seja, ele consegue verificar se vc está utilizando o site com o dispositivo em pé ou deitado.
+
+se a altura está maior que a largura, então a orientação do seu dispositivo está em portrait (podemos configurar criando um css chamado de retrato)
+
+se a largura está maior que a altura, então a orientação do seu dispositivo está em landscape (podemos configurar criando um css chamado de paisagem)
+
+media features nós definimos utilizando um parênteses.
+exemplo:
+    <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)"> 
+
