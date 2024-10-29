@@ -1,0 +1,56 @@
+menu-hamburguer
+
+para começar, nós iremos utilizar um recurso que o google disponibiliza para gente, que é o google icons. 
+
+
+feito isso nós vamos escolher o ícone desejado e importar ele com o link que já está no próprio site e colocar embaixo do title da nossa página.
+
+em seguida, vamos adicionar o link span do ícone logo acima de onde desejamos utilizar, que nesse caso é no menu. 
+<span class="material-symbols-outlined">
+menu
+</span>
+
+exemplo:
+        <h1>Meu Site</h1>
+        <span class="material-symbols-outlined">menu</span>
+
+observação: depois de importarmos esse link, também podemos mudar o nome "menu" para outro nome desejado, basta escolher o icon de nossa preferencia. 
+
+feito isso, iremos criar um id para identificar esse ícone. nesse caso, irei utilizar o id "burguer"
+
+curiosidade: o icon é um inline-level. para mudarmos isso, basta adicionar um display: block.
+
+feito tudo isso o próximo passo é mudar o display do menu (tag menu que contem os itens de navegação da pagina) ter um display: none.
+
+depois disso o próximo passo é entrarmos  com JavaScript.
+
+precisamos ir no span que contem o ícone e adicionarmos uma função de onlick e colocarmos o nome de nossa preferencia. nesse caso, irei utilizar o nome clickMenu
+
+exemplo: 
+<span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+
+o próximo passo agora é configurar o script que vai ficar da seguinte maneira:
+
+    <script>
+        function clickMenu() {
+            itens.style.display = 'block'
+        }
+    </script>
+
+ou seja:
+itens é o id que dei para tag menu que estava com o display: none. 
+nesse código eu quis dizer que toda vez que a função onclick do clickMenu for ativada, o display da tag menu vai mudar de 'none' para 'block'. Sendo assim, vai fazer o menu que estava escondido, aparecer.
+
+só que dessa maneira o menu vai aparecer  todas as vezes que clicarmos, mas não vai sumir quando clicarmos novamente. Para resolver isso, precisamos criar uma condição.
+ficando da seguinte maneira: 
+
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+               itens.style.display = 'none' 
+           } else {
+            itens.style.display = 'block'
+           }
+        }
+
+esse script quer dizer o seguinte:
+if (se) o itens (tag menu) estiver com o display 'block' ele vai deixar o display da tag menu (nesse caso itens) como none. else (se não), ou seja, se o display não for igual a 'none' o display vai ser block. 

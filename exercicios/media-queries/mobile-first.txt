@@ -1,0 +1,24 @@
+mobile-first
+
+basicamente essa abordagem serve para fazermos a versão mobile primeiro, pois até 2009 o pessoal fazia o site pensado para grandes telas primeiro e depois iam capando os recursos para poder funcionar nos dispositivos moveis.
+
+como nosso site foi feito utilizando o mobile-first, nós não iremos precisar as medias mobile nos medias-queries
+
+basta adicionar as outras telas
+exemplo: 
+
+@media print { /* IMPRESSÃO */
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
+   
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* DESKTOP */
+    
+}
+
+@media screen and (min-width: 1200px) { /* GRANDES TELAS */
+    
+}
