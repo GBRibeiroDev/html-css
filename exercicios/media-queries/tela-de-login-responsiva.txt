@@ -1,0 +1,13 @@
+tela-de-login-responsiva
+
+mobile first da tela de login: 
+
+para fazermos as divs trocarem de lugar, basta adicionarmos um float e dizer qual direção queremos q a div vá. 
+exemplo: 
+
+    #login > #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+

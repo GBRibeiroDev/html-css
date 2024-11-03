@@ -1,0 +1,33 @@
+media-queries-para-outros-dispositivos
+
+para tirarmos o menu hamburguer das telas maiores, basta configurarmos o media query da seguinte forma:
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+}
+
+e para deixarmos um do lado do outro, basta dentro desse media query adicionarmos um 
+    menu > ul > li {
+        display: inline-block;
+    }
+
+mas esse método gera um problema para o nosso menu que é toda vez que você encolher a tela e aumentar, o menu vai sumir. Para resolvermos isso, será necessário utilizarmos o JS para monitorar a largura da tela. 
+
+para criarmos esse script, iremos adicionar uma function no body chamada "onresize mudouTamanho()" onresize é uma function para quando mudar o tamanho do site. 
+
+e para configurarmos isso, vai ficar da seguinte maneira:
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
