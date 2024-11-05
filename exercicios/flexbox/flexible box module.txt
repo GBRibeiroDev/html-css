@@ -1,0 +1,17 @@
+flexible box module
+
+display flex faz com que o conteúdo fique flexível, diferentemente do display block que pode vazar o conteúdo que está dentro dele caso você esteja em telas com resoluções diferentes. 
+
+
+para deixar uma caixa responsiva com flexbox, basta ir no container e adicionar um display: flex e ir no filho colocar um flex: auto
+
+toda vez que nós formos criar algo utilizando flexbox, precisamos saber quem é o pai. no caso, quem é a box que está o conteúdo que quero que seja flexível.
+
+observação: o display: flex vai ficar sempre dentro do container. é ele que você está querendo dizer que é uma caixa flexível.
+
+flex-container: pai
+flex-items: filho
+
+observação: flex-items é todo o conteúdo que queremos posicionar. 
+
+colocando display: flex no pai e flex: auto no filho, os flex-items vão ocupar 100% da caixa pai de forma responsiva.

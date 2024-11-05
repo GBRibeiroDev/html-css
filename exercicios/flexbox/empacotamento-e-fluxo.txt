@@ -1,0 +1,28 @@
+empacotamento-e-fluxo
+
+flex-wrap: nowrap
+
+ainda estudando sobre o container (pai dos itens), agora vamos ver o flex-wrap
+wrap significa empacotamento. 
+basicamente essa propriedade vai configurar o comportamento do pai, que por padrão é flex-wrap: nowrap. basicamente isso deixa o item vazar se o container quebrar. basicamente isso não deixa nosso container responsivo.
+ele vai encolher o tamanho dos nossos itens, basicamente expremendo mesmo. e se dentro do nosso item tiver alguma palavra, o item vai ficar do tamanho da maior palavra que esta dentro do item.
+
+observação: flex-wrap: nowrap é a configuração padrão do flex-wrap. só de colocar display: flex dentro de um container, ele por padrão já é nowrap.
+
+
+flex-wrap: wrap
+
+a partir do momento que acaba o espaço e eu tento dar uma diminuída, o ultimo item vai quebrar para o eixo cross-axis.
+
+
+flex-wrap: wrap-reverse
+
+nesse caso, assim que o espaço acabar o item vai quebrar para o lado oposto do cross-axis. nesse caso, ele vai quebrar para cima ao invés de quebrar para baixo como nas outras vezes. 
+
+também existe a propriedade flex-flow.
+ela é uma shorthand para juntar flex-direction e flex-wrap.
+
+exemplo:
+flex-flow: row nowrap
+
+ 

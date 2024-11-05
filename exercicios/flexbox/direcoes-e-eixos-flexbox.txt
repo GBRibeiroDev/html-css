@@ -1,0 +1,50 @@
+direcoes-e-eixos-flexbox
+
+flex-direction é uma das propriedades que sempre vai ser utilizada no container (pai).
+
+ele possui 4 configurações para serem utilizadas que são as: 
+
+row: ela alinha os itens em linha. vale lembrar que só de colocar display: flex você já ativa essa opção de row porque ela é a configuração padrão. ela começa da esquerda para direita. 
+
+
+row-reverse: ele continua sendo linha, mas inverte os itens começando da direita para a esquerda. (alguns idiomas como japonês você le da direita para esquerda.)
+
+
+column: esse alinha os itens como coluna, de cima para baixo.
+
+column-reverse: os itens são alinhados de baixo para cima, assim como no row-reverse.
+
+
+eixos (axis)
+
+depois que escolhemos a flex-direction, são criados 2 eixos.
+
+flex-direction: row 
+
+main-axis:
+quando o flex-direction é row, o primeiro eixo criado é o eixo principal, o qual chamamos de main-axis e ele possui o main-star e o main-end que é o ponto inicial e final do eixo. 
+
+cross-axis:
+o outro eixo que é criado é o eixo transversal, que é chamado de cross-axis. ele também possui dois pontos, cross-start e cross-end.
+
+observação: o main-axis só vai da esquerda para direita se o flex-direction for row. a mesma coisa vale para o cross-axis de cima para baixo.
+
+flex-direction: row
+main-axis vai da esquerda para direita 
+cross-axis de cima para baixo
+
+flex-direction: row-reverse
+main-axis vai da direita para esquerda
+cross-axis continua de cima para baixo
+
+flex-direction: column
+main-axis vai de cima para baixo
+cross-axis vai da esquerda para direita
+
+flex-direction: column-reverse
+main-axis vai de baixo para cima
+cross-axis continua da esquerda para direita
+
+observação: os itens sempre são colocados na direção do main-axis.
+
+
