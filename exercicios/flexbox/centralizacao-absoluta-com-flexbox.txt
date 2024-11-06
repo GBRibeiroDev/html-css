@@ -1,0 +1,9 @@
+centralizacao-absoluta-com-flexbox
+
+
+para isso basta colocarmos o justify-content e align-items; center. 
+pois assim, estaremos centralizando os dois eixos do container.
+vale lembrar que todas essas configurações devem ser feitas dentro do container
+
+obs: nunca é bom deixarmos o body como pai (container) sempre é bom termos um espaço melhor para trabalhar sem comprometer o body.
+

@@ -1,0 +1,27 @@
+alinhamento-nos-eixos-flexbox
+
+agora iremos aprender a centralizar as coisas dentro dos dois eixos principais que são o main-axis e cross-axis.
+
+para isso vamos utilizar o :
+Justify-content
+
+justify-content sempre vai fazer o alinhamento se baseando no main-axis. é importante lembrar disso pois quando o flex-direction estiver em row o main axis fica da esquerda pra direita e quando estiver em column fica de cima para baixo.
+
+dentro do justify-content temos algumas configurações que podemos fazer nos baseando nos eixos.
+
+flex-start: os itens ficam no inicio do eixo principal
+flex-end: os itens ficam no final do eixo principal
+center: ele calcula automaticamente o espaço e centraliza os itens
+space-between: esse coloca o primeiro item no main-start e o ultimo item no main-end, criando assim um espaço igual entre todos os itens que estão no meio deles
+space-evenly: ele faz com que tenha um espaçamento igual entre todos os itens. esse não gruda os itens no main-start e main-end.
+space-around: esse alinhamento calcula o espaço do container, separa esse containers em partes iguais e centraliza os itens dentro dessas partes iguais que foram separadas.
+
+agora iremos ver o alinhamento do eixo cross-axis. ele é feito com o: 
+
+Align-items
+o valor padrão dele é o: stretch que significa esticar os itens
+flex-start: alinha os itens no inicio do cross-axis
+flex-end: faz nossos itens ficarem no final do eixo cross-axis
+center: centraliza os itens dentro do eixo cross-axis
+
+
