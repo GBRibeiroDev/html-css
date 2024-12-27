@@ -1,0 +1,22 @@
+alinhamento-de-wrap
+
+align-content:
+essa propriedade serve para alinharmos os itens quando eles forem quebrados (wrap).
+
+valores que possuem dentro do align-content:
+stretch: esse é o valor padrão, ele pega o espaço que tem para quebrar (Exemplo: quebrou em duas linhas) e então ele pega e divide em partes iguais. nesse exemplo ele vai dividir  por 2 partes iguais por possuir apenas duas linhas. e além de dividir em duas partes iguais, ele ainda vai pegar o espaço que ficou em branco e esticar os itens para preencher o espaço vazio no cross-axis.
+
+flex-start: pega todos os itens e grudar no cross-start. sendo assim se tivermos 3 itens ele mantem 2 na linha de cima e desce o ultimo para a linha de baixo, porem mantendo o espaço em branco sem preenchimento. 
+
+flex-end: pega todos os itens e gruda no cross-end. assim como a opção acima.
+
+center: vai alinhar os itens no centro.
+
+space-between: vai grudar o primeiro item no cross-start e o ultimo no cross-end e criar um espaço igual entre eles para todos os itens.
+
+space-evely: coloca um espaço no cross-start e cross-end
+
+space-around: divide o eixo principal em partes iguais e centralizar os valores com espaços iguais, assim como o stretch, mas sem esticar os itens.
+
+OBSERVAÇÃO: O ALIGN-CONTENT SÓ FUNCIONA CASO VOCE UTILIZE O WRAP
+

@@ -1,0 +1,41 @@
+anatomia-dos-itens-flexbox
+
+
+todos os itens que estiverem dentro do container vai ter por padrão order: 0.
+
+order: serve para definirmos qual vai ser a ordem dos itens dentro do container. lembrando que sempre vai alinhar os itens em ordem crescente da esquerda para direita.
+
+exemplo: 
+os itens que estiverem 5, -2, 3 e 0 ficarão na seguinte ordem:
+-2, 0, 3 e 5.
+
+basicamente essa função é muito importante para definirmos a ordem de um menu por exemplo, quando diminuirmos e aumentarmos o tamanho dele ou quando tivermos uma quebra com wrap.
+
+e para definir esse order, basta irmos no item e aplicarmos um css inline e escrever order.
+exemplo: 
+
+<div class="item" style="order: -3;">D</div>
+
+align-self:
+
+o align-self se aplica diretamente aos itens e ele vai funcionar no cross-axis.
+
+valores do align-self:
+
+auto: ele vai herdar os valores de alinhamento vertical do pai (container) seja ele o align-content ou align-item
+
+flex-start: alinhamento começando no cross-start
+
+flex-end: alinhamento começando no cross-end
+
+center: alinhamento no centro
+
+stretch: vai esticar para ocupar todo o cross-axis
+
+
+
+então quando colocarmos o align-self: auto ele vai herdar o valor do align-items do pai. 
+
+
+
+
