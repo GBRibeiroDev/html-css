@@ -1,0 +1,28 @@
+a-propriedade-flex
+
+a propriedade flex nada mais é do que a shorthand para flex-grow, flex-shrink e flex-basis
+
+substituindo o 
+
+flex-grow: 0
+flex-shrink: 1
+flex-basis: 150px 
+
+por:
+
+flex: 0 1 150px. (sendo grow a primeira, shrink a segunda e basis a terceira. 
+
+existem também alguns valores já pré definidos que o pessoal usa muito nos projetos e agora vou citar eles abaixo:
+
+flex: 0 1 auto <- esse valor é o padrão (não necessariamente você precisa declarar, mas é bom deixar especificado.) 
+flex: initial (também é o valor padrão como o de cima.
+
+flex: 0 0 auto (significa que os itens não podem diminuir, não podem crescer e o tamanho vai depender do container. ele não é nada flexível
+flex: none (é o mesmo que o acima) 
+
+flex: 1 1 auto (é o contrario do de cima. esse significa que você pode crescer o elemento, diminuir o elemento e que ele vai ocupar todo o espaço do container.) 
+flex: auto (é exatamente o de cima.) 
+
+flex: 3 (significa que somente o flex-grow desse elemento vai ser 3. sendo assim, significa que o shrink e basis vai ser oss valores padrões.)
+flex: 3 1 auto (é exatamente o de cima, só que com todos os 3 sendo declarados.) 
+
