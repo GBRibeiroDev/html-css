@@ -26,8 +26,9 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted #000;
+    /* border: 1px dotted #000; */
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px #00000085;
 }
 
 header > nav > a {
@@ -47,7 +48,7 @@ header > nav > a:hover {
 }
 
 nav {
-    border: 1px dotted #000;
+   /* border: 1px dotted #000;  */
     display: flex;
 
     flex-flow: row wrap;
