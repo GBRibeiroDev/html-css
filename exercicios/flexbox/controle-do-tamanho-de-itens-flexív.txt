@@ -1,0 +1,26 @@
+controle-do-tamanho-de-itens-flexíveis
+
+pode encolher? pode aumentar?
+
+flex-shrink: 1
+flex-grow: 0 
+
+esse é o valor padrão de ambos. 
+
+flex-shrink: 1 significa que pode encolher, 0 significa que não pode encolher.
+obs: qualquer valor positivo acima de 0, significa que pode encolher. o 1 foi apenas um exemplo.
+
+flex-grow: 0 significa que o item que tiver isso, não pode crescer. 
+
+então para manter os itens totalmente elásticos (podem diminuir e aumentar) então nos precisamos utilizar flex-shrink: 1 (pode encolher) e flex-grow: 1 (pode aumentar)
+
+se eu utilizar números acima do 1 no grow por exemplo, significa que ele vai multiplicar o valor de um na hora do crescimento. 
+exemplo: se eu tiver 3 itens sendo que um item é 0, 1 e 2 o que tem 2 não vai crescer 2x mais do que o 1, ele vai crescer o dobro. se fosse 3 seria o triplo e assim por diante.
+
+
+o mesmo se aplica para flex-shrink na hora de diminuir. 
+se tiver 2, 0 e 1 significa que o 0 não diminui, o 1 diminui um pouco e o 2 diminui o dobro de 1.
+
+resumidante: os números positivos acima de 1 só tem sentido caso tenha algum item com o valor de 1. pois acima disso os números trabalham por proporção. 
+então se tiver um item com valor de grow 4 e outro 1, significa que o que está com 4 vai crescer 4x mais do que o 1. já se um item tiver 4 e o outro 0, não vai fazer sentido.
+

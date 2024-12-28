@@ -1,0 +1,15 @@
+Propriedade-flex-basis-em-Flexbox 
+
+flex-basis por padrão ela sempre vem com auto.
+
+flex-basis serve para dizermos o tamanho (width) do item. podemos definir isso indiviadualmente também utilizando as id's
+
+observação: isso não trava a largura em 200px. caso o container diminua o espaço, vai diminuir o tamanho dos itens. isso significa q ele vai ficar com 200px enquanto der.
+lembrando que todos eles vão diminuir de tamanho igual.
+
+então nesse caso, dentro dos itens é importante usarmos flex-basis ao invés de width e height
+
+então para utilizar o flex-basis, depende também do wrap e nowrap. se eu utilizar flex-basis: 150px nowrap, significa que enquanto couber no container, o conteúdo vai ter 150px
+mas a partir do momento que precisa diminuir, ele vai adaptando ao novo tamanho. 
+
+já se eu utilizar o wrap, significa que vai ficar travado em 150px, porem, quando o container não couber mais todos os itens em 150px, ele vai quebrar para poder deixar todos em 150px
